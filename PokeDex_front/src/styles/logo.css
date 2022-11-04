@@ -3,7 +3,6 @@
     flex-direction: row;
     width: 600px;
     margin-left: 50px;
-    border-right: 2px solid black
 }
 
 .titulo{
@@ -15,8 +14,7 @@
 .logoimg{
     display: flex;
     justify-content: center;
-    width: 400px;
-    height: auto;
+    margin-right: 150px;
 }
 
 img{

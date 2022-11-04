@@ -9,10 +9,10 @@ body{
 }
 
 .header{
-    margin: 1px;
-    border: solid 2px black;
+    margin-left:20px;
+    margin-top: 30px;
     display: flex;
     flex-direction: row;
     background-color: rgb(228, 228, 28);
-    width: 99.5%;
+    width: 1480px;
 }
