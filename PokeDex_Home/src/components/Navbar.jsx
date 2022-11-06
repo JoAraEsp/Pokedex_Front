@@ -11,7 +11,7 @@ function Navbar() {
                         <input type="text" placeholder="Ingresa el pokemon a buscar"/>
                     </div>
                     <div className="buttons">
-                        <button>Inciar Sesion</button>
+                        <button>Iniciar Sesion</button>
                         <button>Registrarse</button>
                     </div>
                 </div>
