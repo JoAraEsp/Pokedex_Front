@@ -1,6 +1,7 @@
 import "../Styles/Inicio.css"
 import Pikachu from "../Imagenes/Pikachu.png"
-
+import Usuario1 from "../Imagenes/Usuario1.png";
+import user2 from "../Imagenes/Usuario2.png";
 
 function Inicio() {
     return ( 
@@ -20,7 +21,7 @@ function Inicio() {
                 <div class="authors">
                     <div class="username"><a href="">Usuario2</a></div>
                     <div>Integrante de la comunidad</div>
-                    <img src={Usuario2} alt="" />
+                    <img src={user2} alt="" />
                     <div>Posts: <u>38</u></div>
                     <div>Puntos: <u>2830</u></div>
                 </div>
