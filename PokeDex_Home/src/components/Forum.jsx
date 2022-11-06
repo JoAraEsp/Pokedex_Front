@@ -35,7 +35,7 @@ function Forum() {
                 <div class="authors">
                     <div class="username"><a href="">Usuario2</a></div>
                     <div>Integrante de la comunidad</div>
-                    <img src={Usuario2}  />
+                    <img src={Usuario2} alt="" />
                     <div>Posts: <u>38</u></div>
                     <div>Puntos: <u>2830</u></div>
                 </div>

@@ -25,7 +25,9 @@ function Body() {
                 </div>
 
                 <div className="contenido">
-                <Inicio/>
+                    <>
+                    <Inicio></Inicio>
+                    </>
                 </div>
             </div>
         </>

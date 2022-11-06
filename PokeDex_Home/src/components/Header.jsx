@@ -1,5 +1,4 @@
 import "../Styles/Header.css"
-
 import Logo from "./Logo"
 import Navbar from "./Navbar"
 
