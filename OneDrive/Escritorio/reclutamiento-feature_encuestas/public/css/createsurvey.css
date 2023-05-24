@@ -1,0 +1,376 @@
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 100%;
+    background-color: white;
+    color: black;
+    padding: 2rem;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.py-2 {
+    background-color: #333;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    top: 1%;
+}
+
+.pagina {
+    max-width: 100%;
+    overflow-x: hidden;
+    position: absolute;
+    width: 100%;
+    height: 26%;
+    left: 5%;
+    top: 15%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;   
+}
+
+.pagina img{
+    position: absolute;
+    width: 3%;
+    top: 15%;
+}
+
+.pagina h1{
+    position: absolute;
+    width: 3%;
+    left: 2%;
+}
+
+.title{
+    display: inline-block; 
+    vertical-align: middle;
+    margin-left: 2%;
+}
+
+.form {
+     padding: 1rem;
+}
+
+.tipo-preguntas {
+    position: relative;
+    width: 17.76%;
+    height: 1.66%;
+    left: 25%;
+    top: 32%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #696767;
+}
+
+.tipo-encuesta {
+    position: relative;
+    width: 17.76%;
+    height: 1.66%;
+    left: 50%;
+    top: 32%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #696767;
+}
+
+.tipo-opciones{
+    position: relative;
+    width: 30%;
+    height: 1.66%;
+    left: 20%;
+    top: 40%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #696767;
+}
+
+.tipo-opciones input{
+    border-radius: 5px;
+    border: 1px solid #39c;
+}
+
+.titulo-encuesta{
+    position: relative;
+    width: 30%;
+    height: 1.66%;
+    left: 20%;
+    top: 47%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #696767;
+}
+
+.indicaciones{
+    position: relative;
+    width: 70%;
+    height: 1.66%;
+    left: 20%;
+    top: 54%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #696767;
+}
+
+.preguntas{
+    position: relative;
+    width: 90%;
+    height: 1.66%;
+    left: 20%;
+    top: 60%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #696767;
+}
+
+.preguntas1{
+    position: relative;
+    width: 90%;
+    height: 1.66%;
+    left: 20%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #696767;
+}
+
+
+.listas{
+    position: relative;
+    width: 90%;
+    height: 1.66%;
+    left: 20%;
+    top: 70%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #696767;
+}
+
+.listas1{
+    position: relative;
+    width: 90%;
+    height: 1.66%;
+    left: 20%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #696767;
+}
+
+.opciones{
+    position: relative;
+    width: 90%;
+    height: 1.66%;
+    left: 20%;
+    top: 70%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #696767;
+}
+
+.opciones1{
+    position: relative;
+    width: 90%;
+    height: 1.66%;
+    left: 20%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #696767;
+}
+
+input{
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    color: #333;
+}
+
+.preguntas{
+    margin-top: 20px; /* ajusta según el espacio que quieras dejar entre el formulario y los elementos siguientes */
+    transition: margin-top 0.2s ease-in-out; /* agrega una transición suave */
+  }
+  
+
+input.indicar{
+    width: 80%
+}
+
+.agregar{
+    position: absolute;
+    background-color: #39c;
+    left: 23%;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.agregar:hover{
+    background-color: rgb(16, 96, 136);
+}
+
+.form-button {
+    position: absolute;
+    top: 80%;
+    left: 38%;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.guardar{
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #20FF51;
+    cursor: pointer;
+}
+
+.cancelar{
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #FF0000;
+    cursor: pointer;
+}
+
+.enviar{
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #E6E6E6;
+    cursor: pointer;
+}
+
+
+.guardar:hover {
+    background-color: #258535;
+}
+
+.cancelar:hover {
+    background-color: #9e2f22;
+}
+
+.enviar:hover {
+    background-color: #797b79;
+}
+
+.botonGuardar {
+    padding: 20px;
+    border: none;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    border-radius: 5px;
+  }
+  
+  .confirmar {
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: lightblue;
+  }
+
+  .cerrar {
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: lightcoral;
+  }
+
+  .botonEnviar {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 20px;
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+
+  ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+    padding: 0;
+  }
+  
+  input[type=checkbox] {
+    margin-right: 10px;
+  }
+  
+  .cuadro-blanco {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }

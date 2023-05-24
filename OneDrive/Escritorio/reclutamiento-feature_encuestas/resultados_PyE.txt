@@ -1,0 +1,9 @@
+Estos son los resultados:
+Datos ingresados: [56.0, 98.0, 45.0, 78.0, 34.0, 9.0, 100.0]
+Valor máximo: 100.0
+Valor mínimo: 9.0
+Rango: 91.0
+Moda: 56.0
+Promedio: 60.0
+Mediana: 56.0
+Datos en orden: [9.0, 34.0, 45.0, 56.0, 78.0, 98.0, 100.0]
